@@ -25,7 +25,7 @@ public class DatabaseConnection extends HttpServlet
     {
         String forward = "/index.jsp";
         String value = null;
-        String number1 = request.getParameter("irst");
+        String number1 = request.getParameter("first");
         String number2 = request.getParameter("second");
         String login = request.getParameter("login");
         String password = request.getParameter("password");
